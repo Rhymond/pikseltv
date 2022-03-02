@@ -1,7 +1,7 @@
 import create, { GetState, SetState } from "zustand";
 import { createState as createUserState, State as UserState } from "./user";
 
-type StoreState = {
+export type StoreState = {
   user: UserState;
 };
 
